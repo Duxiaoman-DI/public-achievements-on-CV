@@ -21,8 +21,8 @@
 我们利用视觉Transformer模型集成高分辨率卷积网络提高小文本召回率，并在公开数据集的基础上生成小文本数据做预训练，有效提高了跟踪精度。方案效果优于天津大学、北邮、中国移动研究院、上海人工智能实验室等单位。     
 
 ###  <span id='cvpr_2022'>2022 CVPR</span> 轻量NAS挑战赛    
-我们提出了从零样本NAS到小样本NAS的逐步训练超网的方案。    
-在训练方案中，我们首先以一次性的方式训练超网，然后通过将其分割成多个子网并逐渐训练它们来解耦超网的权重。我们的方法在CVPR2022第三届轻量级NAS挑战赛Track1中排名第四。   
+我们提出了从one-shot NAS到few-shot NAS的逐步训练超网的方案。    
+在训练方案中，我们首先以one-shot的方式训练超网，然后通过将其分割成多个子网并逐渐训练它们来解耦超网的权重。我们的方法在CVPR2022第三届轻量级NAS挑战赛Track1中排名第四。   
 [相关论文](#cvpaper)被CVPR 2022 NAS workshop 收录。
 
 
@@ -30,7 +30,7 @@
 ## 顶会论文     
 ### <span id='cvpaper'>Improve Ranking Correlation of Super-net through Training Scheme from One-shot NAS to Few-shot NAS</span>
 **论文链接:**  [论文pdf](https://arxiv.org/pdf/2206.05896v1.pdf)     
-**论文简介:**   一次性神经结构搜索（NAS）的算法已经被广泛用于减少计算量。然而，由于共享权重的子网之间的干扰，从这些算法训练出来的超网继承下来的子网在精度排名上一致性较差。于是我们提出了一个从一次性NAS到少次性NAS的逐步训练超网的方案。在训练方案中，我们首先以一次性的方式训练超网，然后我们通过将其分割成多个子网并逐渐训练它们来解耦超网的权重。     
+**论文简介:**   One-shot神经结构搜索（NAS）的算法已经被广泛用于减少计算量。然而，由于共享权重的子网之间的干扰，从这些算法训练出来的超网继承下来的子网在精度排名上一致性较差。于是我们提出了一个从one-shot NAS到few-shot NAS的逐步训练超网的方案。在训练方案中，我们首先以one-shot的方式训练超网，然后通过将其分割成多个子网并逐渐训练它们来解耦超网的权重。     
 **论文代码:**  [CVPR2022-NAS-competition-Track-1-4th-solution](https://github.com/liujiawei2333/CVPR2022-NAS-competition-Track-1-4th-solution)       
 ![CVPR图片](https://github.com/Duxiaoman-DI/public-achievements-on-CV/blob/main/naspdc.PNG)
 
