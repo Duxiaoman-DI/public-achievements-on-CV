@@ -7,7 +7,7 @@
 * 2021 ICDAR 视频文本追踪赛：第二名
 * 2021 ICDAR 视频文本定位赛：第二名
 * 2021 ICDAR 视频文本检测赛：第三名
-* NeurIPS 2021 VisDA视觉域适应挑战赛：第四名  
+* [NeurIPS 2021 VisDA视觉域适应挑战赛：第四名](#visda)  
 
 **顶会论文**
 * [CVPR 2022 NAS workshop 收录：超网排序相关性论文](#cvpaper)    
@@ -23,8 +23,14 @@
 ###  <span id='cvpr_2022'>2022 CVPR</span> 轻量NAS挑战赛    
 我们提出了从one-shot NAS到few-shot NAS的逐步训练超网的方案。    
 在训练方案中，我们首先以one-shot的方式训练超网，然后通过将其分割成多个子网并逐渐训练它们来解耦超网的权重。我们的方法在CVPR2022第三届轻量级NAS挑战赛Track1中排名第四。   
-[相关论文](#cvpaper)被CVPR 2022 NAS workshop 收录。
+[相关论文](#cvpaper)被CVPR 2022 NAS workshop 收录。    
 
+###  <span id='visda'>NeurIPS 2021 VisDA视觉域适应挑战赛</span>    
+我们提出了一种基于伪标签的通用域适应系统用于领域适应性和开放集分类。我们使用OVANet架构进行类内分类和类外置信度预测，然后使用带有伪标签的无标签数据多次训练模型以提高性能。    
+此外，我们训练了多个不同的模型，并通过对这些模型的预测结果进行投票来实现模型集成。    
+我们的方法在NeurIPS 2021视觉域适应挑战赛(VisDA-2021)中排名第四。
+**论文链接：**[Universal Domain Adaption and Open Set Classification with focus on Visual Domain Adaption Challenge 2021](https://github.com/liujiawei2333/NeurIPS-2021-Visual-Domain-Adaptation-Challenge-4th-solution/blob/master/NeurIPS%202021%20Visual%20Domain%20Adaptation%20Challenge%204th%20solution.pdf)
+**相关代码：**[NeurIPS-2021-Visual-Domain-Adaptation-Challenge-4th-solution](https://github.com/liujiawei2333/NeurIPS-2021-Visual-Domain-Adaptation-Challenge-4th-solution/tree/master)
 
 
 ## 顶会论文     
